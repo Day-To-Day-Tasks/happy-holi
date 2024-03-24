@@ -29,13 +29,11 @@
             line-height: 1.6;
         }
         .holi-gif-container {
-            width: 100%;
-            max-width: 480px; /* Limiting max width */
             margin: 20px auto;
         }
         .holi-gif-container iframe {
-            width: 480px; /* Adjusting width to 480px */
-            height: 480px; /* Adjusting height to 480px */
+            width: 100%;
+            height: auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -58,6 +56,19 @@
         .insta:hover {
             text-decoration: underline;
         }
+
+        /* Media Queries */
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .holi-gif-container {
+                margin: 10px auto;
+            }
+            .holi-gif-container iframe {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -69,7 +80,7 @@
         <p>Wishing you and your loved ones a colorful and joyous Holi! May this festival bring happiness, prosperity, and love into your lives.</p>
         <p>With warm regards,<br>Mukul Joshi</p>
         <p>Follow me on Instagram: <a href="https://www.instagram.com/mukulj77/" class="insta">@mukulj77</a></p>
-        <a href="https://giphy.com/gifs/helloall-slugbugg-sikhs-hindus-ui7pQjR911F8sToKR2" class="btn" target="_blank">Send Holi Wishes</a> <!-- Added target="_blank" to open in a new tab -->
+        <a href="https://www.fnp.com/quotes/holi" class="btn" target="_blank">Send Holi Wishes</a> <!-- Updated button link -->
     </div>
 </body>
 </html>
